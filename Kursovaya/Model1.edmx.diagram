@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="357fa0fc897240858d374c9261abc491" Name="Diagram1">
+        <EntityTypeShape EntityType="TokarevKursovModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TokarevKursovModel.Вид_жилья" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TokarevKursovModel.Клиенты" Width="1.5" PointX="7.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TokarevKursovModel.Пансионаты" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TokarevKursovModel.Путевки" Width="1.5" PointX="5.25" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TokarevKursovModel.Тур" Width="1.5" PointX="3" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TokarevKursovModel.Клиенты_Копия" Width="1.5" PointX="5.75" PointY="7.75" IsExpanded="true" />
+        <AssociationConnector Association="TokarevKursovModel.FK__Пансионат__Вид_ж__59063A47" ManuallyRouted="false" />
+        <AssociationConnector Association="TokarevKursovModel.FK__Тур__Вид_жилья__5BE2A6F2" ManuallyRouted="false" />
+        <AssociationConnector Association="TokarevKursovModel.FK__Путевки__Пансион__628FA481" ManuallyRouted="false" />
+        <AssociationConnector Association="TokarevKursovModel.FK__Путевки__Тур__619B8048" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
